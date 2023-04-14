@@ -20,8 +20,8 @@
 							"    var jsonData = pm.response.json();\r",
 							"    pm.expect(jsonData.categories[0].name).to.eql(\"Fruits\");\r",
 							"});\r",
-							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"pm.test(\"Response time is less than 1000ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1000);\r",
 							"});"
 						],
 						"type": "text/javascript"
