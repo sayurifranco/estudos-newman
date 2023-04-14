@@ -18,7 +18,7 @@
 							"});\r",
 							"pm.test(\"Check if id1 is fruit\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData[0].name).to.eql(\"Fruits\");\r",
+							"    pm.expect(jsonData.categories[0].name).to.eql(\"Fruits\");\r",
 							"});\r",
 							"pm.test(\"Response time is less than 200ms\", function () {\r",
 							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
