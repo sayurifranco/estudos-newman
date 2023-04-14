@@ -29,4 +29,4 @@ Como última etapa, fazemos upload dos artefatos para o espaço de trabalho, iss
 O Teste em si
 Quando um push é feito para o repositório main/principal, o fluxo de trabalho é acionado. A saída de cada compilação está disponível no painel Ações do repositório e podemos detalhar cada fluxo para ver por que ele falhou.
 
-Ao clicar na execução (Update postman-pull-request.yml) vemos os detalhes E LOGO ABAIXO PODEMOS VER O LINK DO RELATORIO EM FORMATO ZIP, CONTENTO O RELATORIO HTML DA EXECUÇÃO
+Ao clicar na execução (Update postman-pull-request.yml) vemos os detalhes.
